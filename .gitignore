@@ -1,0 +1,16 @@
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Data (VERY IMPORTANT)
+dataset/
+*.npy
+*.npz
+*.mat
+*.bin
