@@ -5,7 +5,7 @@ Unlike camera-based systems, radar offers advantages such as privacy preservatio
 The objective of this work is to process radar signal data and develop machine learning–based methods to estimate the number of people present in different scenarios.
 Scenario 1: 0–20 people randomly walking in a constrained area at a density of Three Persons Per Square Meter​
 
-Measurements:​
+# Measurements:​
 
 8,000 radar signals per people count​
 
@@ -17,7 +17,7 @@ Each signal has 1,280 sampling points (3 m detection range)​
 
 ​
 
-Data Loading:​
+# Data Loading:​
 
 Loaded using a custom Python script:​
 
@@ -31,7 +31,7 @@ X: (1760, 50, 1280) → 1760 samples, 50 frames per sample, 1280 points per fram
 
 y: (1760,) → corresponding labels (number of people)
 
-Signal Pre-processing​
+# Signal Pre-processing​
 
 Bandpass filter: Remove out-of-band noise and static clutter.​
 
@@ -42,7 +42,7 @@ Time-Distance Window Selection: Focus on region containing human reflections.​
 Resulting shape after pre-processing: X_preprocessed: (1760, 50, 1230)​
 ​
 
- Feature Extraction​
+ # Feature Extraction​
 
 Hybrid CTF-DBF features:​
 
@@ -58,7 +58,7 @@ Paper used 300 features → fewer features may reduce classifier performance.​
 
 
 
- Accuracy Random Forest​: 0.935​
+ # Accuracy Random Forest​: 0.935​
 
 ​
 
