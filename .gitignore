@@ -10,7 +10,6 @@ __pycache__/
 
 # Data (VERY IMPORTANT)
 dataset/
-*.npy
 *.npz
 *.mat
 *.bin
