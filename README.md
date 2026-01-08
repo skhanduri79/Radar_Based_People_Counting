@@ -52,10 +52,6 @@ Distance Bin Features (DBF): Divide distance axis into bins → compute statisti
 
 ​
 
-
-
- # Accuracy Random Forest​: 0.935​
-
 ​
 
 ​
