@@ -46,15 +46,11 @@ Resulting shape after pre-processing: X_preprocessed: (1760, 50, 1230)​
 
 Hybrid CTF-DBF features:​
 
-Curvelet Transform Features (CTF): Captures motion and spatial structure from radar matrices.​
+Gabor Filter Bank: Captures motion and spatial structure from radar matrices.​
 
 Distance Bin Features (DBF): Divide distance axis into bins → compute statistics per bin​
 
-Final hybrid feature matrix: (1760, 74)​
-
-Each sample → 74-dimensional feature vector​
-
-Paper used 300 features → fewer features may reduce classifier performance.​
+​
 
 
 
